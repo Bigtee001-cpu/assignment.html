@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bright - Complete Final</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f7f7f8;color:#262626}
+img{width:100%;display:block}
+.container{max-width:1200px;margin:auto;padding:0 20px}
+.orange{background:#ff9500;color:#fff;padding:10px 18px;border-radius:6px;border:none;font-weight:700;cursor:pointer}
+header{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:10}
+.nav{height:60px;display:flex;justify-content:space-between;align-items:center}
+.nav ul{display:flex;gap:20px;list-style:none;font-size:14px}
+.hero{text-align:center;padding:50px 0 20px}
+.hero h1{font-size:36px;max-width:650px;margin:auto;line-height:1.2}
+.hero h1 span{color:#ff9500}
+.hero p{color:#777;margin:12px 0}
+.hero-img{height:450px;object-fit:cover;border-radius:12px;margin:20px 0;background:#ddd}
+.section-head{display:flex;justify-content:space-between;margin:50px 0 20px;align-items:end;flex-wrap:wrap;gap:10px}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.benefit{background:#fff;padding:24px;border-radius:10px;min-height:160px}
+.benefit b{font-size:50px;float:right}
+.benefit h4{margin-top:45px}
+.benefit p{font-size:13px;color:#777;margin-top:6px;line-height:1.5}
+.courses{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.course{background:#fff;border-radius:12px;overflow:hidden;border:1px solid #eee}
+.course img{height:250px;object-fit:cover;background:#eee}
+.course-body{padding:16px}
+.meta{display:flex;justify-content:space-between;font-size:12px;color:#777;margin-bottom:10px;flex-wrap:wrap;gap:6px}
+.tag{background:#f1f1f1;padding:4px 8px;border-radius:4px;border:1px solid #eee}
+.tests{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.test{background:#fff;padding:20px;border-radius:10px;border:1px solid #eee}
+.test p{font-size:13px;color:#555;line-height:1.6}
+.test-foot{display:flex;justify-content:space-between;align-items:center;margin-top:16px;border-top:1px solid #eee;padding-top:12px;font-size:13px}
+.pricing{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;background:#fff;padding:20px;border-radius:12px}
+.price-card{background:#fcfcfd;border:1px solid #eee;padding:28px;border-radius:10px;text-align:center}
+.price-card h2{font-size:40px;margin:10px 0}
+.price-card ul{list-style:none;text-align:left;margin:15px 0;font-size:13px}
+.price-card li{padding:10px;border:1px solid #eee;border-radius:6px;margin:6px 0;background:#fff}
+.faq-wrap{display:grid;grid-template-columns:1fr 2fr;gap:20px;background:#fff;padding:20px;border-radius:12px;margin-top:30px}
+.faq-item{border:1px solid #eee;padding:14px;border-radius:8px;margin-bottom:10px;display:flex;justify-content:space-between}
+footer{background:#fff;padding:30px 0;margin-top:50px;border-top:1px solid #eee;text-align:center;color:#777;font-size:13px}
+@media(max-width:800px){
+.benefits{grid-template-columns:1fr}
+.courses{grid-template-columns:1fr}
+.tests{grid-template-columns:1fr}
+.pricing{grid-template-columns:1fr}
+.faq-wrap{grid-template-columns:1fr}
+.nav ul{display:none}
+.hero h1{font-size:24px}
+.hero-img{height:220px}
+}
+</style>
+</head>
+<body>
+<header><div class="container nav"><b>🔶 Bright</b><ul><li>Home</li><li>Courses</li><li>Pricing</li><li>Testimonials</li></ul><button class="orange">Sign Up</button></div></header>
+
+<div class="container">
+<div class="hero">
+<h1><span>⚡ Unlock</span> Your Creative Potential with Online Courses</h1>
+<p>Learn from Industry Experts and Enhance Your Skills.</p>
+<button class="orange">Explore Courses</button>
+<img class="hero-img" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80&auto=format&fit=crop" alt="hero" onerror="this.src='https://via.placeholder.com/1200x500/FFE4CC/FF9500?text=Students+Learning'">
+</div>
+
+<div class="section-head"><h2>Benefits</h2><button style="padding:6px 10px;border-radius:6px;border:1px solid #ddd;background:#fff">View All</button></div>
+<div class="benefits">
+<div class="benefit"><b>01</b><h4>Flexible Learning</h4><p>Fit your coursework around existing commitments and obligations.</p></div>
+<div class="benefit"><b>02</b><h4>Expert Instruction</h4><p>Learn from industry experts who have hands-on experience.</p></div>
+<div class="benefit"><b>03</b><h4>Diverse Course Offerings</h4><p>Explore wide range of design and development courses.</p></div>
+<div class="benefit"><b>04</b><h4>Updated Curriculum</h4><p>Access courses with latest industry trends.</p></div>
+<div class="benefit"><b>05</b><h4>Practical Projects</h4><p>Develop a portfolio that showcases your skills.</p></div>
+<div class="benefit"><b>06</b><h4>Interactive Learning</h4><p>Collaborate with fellow learners, exchanging ideas.</p></div>
+</div>
+
+<div class="section-head"><h2>Our Courses</h2><button style="padding:6px 10px;border-radius:6px;border:1px solid #ddd;background:#fff">View All</button></div>
+<div class="courses">
+
+<div class="course">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80&auto=format&fit=crop" alt="Web Design" onerror="this.src='https://via.placeholder.com/600x400/FFE4CC/FF9500?text=Web+Design'">
+<div class="course-body"><div class="meta"><span><span class="tag">4 Weeks</span> <span class="tag">Beginner</span></span><span>By John Smith</span></div><h4>Web Design Fundamentals</h4><p style="font-size:13px;color:#777;margin:8px 0">Learn fundamentals of web design, HTML, CSS, responsive design.</p><button class="orange" style="width:100%">Get it Now</button></div>
+</div>
+
+<div class="course">
+<img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80&auto=format&fit=crop" alt="UI/UX" onerror="this.src='https://via.placeholder.com/600x400/FFE4CC/FF9500?text=UI/UX+Design'">
+<div class="course-body"><div class="meta"><span><span class="tag">6 Weeks</span> <span class="tag">Intermediate</span></span><span>By Emily Johnson</span></div><h4>UI/UX Design</h4><p style="font-size:13px;color:#777;margin:8px 0">Master wireframing, prototyping, usability testing.</p><button class="orange" style="width:100%">Get it Now</button></div>
+</div>
+
+<div class="course">
+<img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80&auto=format&fit=crop" alt="Mobile App" onerror="this.src='https://via.placeholder.com/600x400/FFE4CC/FF9500?text=Mobile+App'">
+<div class="course-body"><div class="meta"><span><span class="tag">8 Weeks</span> <span class="tag">Intermediate</span></span><span>By David Brown</span></div><h4>Mobile App Development</h4><p style="font-size:13px;color:#777;margin:8px 0">Dive into mobile app development. Learn to build and publish apps.</p><button class="orange" style="width:100%">Get it Now</button></div>
+</div>
+
+<div class="course">
+<img src="https://images.unsplash.com/photo-1626785774573-6dd65b279390?w=600&q=80&auto=format&fit=crop" alt="Graphic Design" onerror="this.src='https://via.placeholder.com/600x400/FFE4CC/FF9500?text=Graphic+Design'">
+<div class="course-body"><div class="meta"><span><span class="tag">10 Weeks</span> <span class="tag">Beginner</span></span><span>By Sarah Thompson</span></div><h4>Graphic Design for Beginners</h4><p style="font-size:13px;color:#777;margin:8px 0">Discover fundamentals of graphic design, typography, color theory.</p><button class="orange" style="width:100%">Get it Now</button></div>
+</div>
+
+</div>
+
+<!-- PEOPLE REVIEWS - TESTIMONIALS - NOW ADDED -->
+<div class="section-head"><div><h2>Our Testimonials</h2><p style="font-size:13px;color:#777">What our students say about us</p></div><button style="padding:6px 10px;border-radius:6px;border:1px solid #ddd;background:#fff">View All</button></div>
+<div class="tests">
+<div class="test"><p>"The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the hands-on assignments helped me apply what I learned. Highly recommend!"</p><div class="test-foot"><span>👩 <b>Sarah L</b> - Web Design Student</span><a style="font-size:12px;text-decoration:underline">Read Full Story</a></div></div>
+<div class="test"><p>"The UI/UX design course was fantastic. Cutting-edge topics, focus on user feedback, and real projects. The quality exceeded my expectations and helped me get a job!"</p><div class="test-foot"><span>👨 <b>Jason M</b> - UI/UX Designer</span><a style="font-size:12px;text-decoration:underline">Read Full Story</a></div></div>
+<div class="test"><p>"Mobile app course was well structured. I built my first app in 8 weeks! Instructors are top industry experts."</p><div class="test-foot"><span>👩 <b>Emily R</b> - App Developer</span><a style="font-size:12px;text-decoration:underline">Read Full Story</a></div></div>
+<div class="test"><p>"Graphic design for beginners opened my creative side. Now I freelance and earn from design projects."</p><div class="test-foot"><span>👨 <b>Michael K</b> - Graphic Designer</span><a style="font-size:12px;text-decoration:underline">Read Full Story</a></div></div>
+</div>
+
+<div class="section-head"><h2>Our Pricing</h2></div>
+<div class="pricing">
+<div class="price-card"><p>Free Plan</p><h2>$0<span style="font-size:14px">/month</span></h2><ul><li>✔ Access to selected free courses</li><li>✔ Limited course materials</li><li>✔ Basic community support</li><li>✔ No certification</li></ul><button class="orange" style="width:100%">Get Started</button></div>
+<div class="price-card" style="border:2px solid #ff9500"><p>Pro Plan</p><h2>$79<span style="font-size:14px">/month</span></h2><ul><li>✔ Unlimited access to all courses</li><li>✔ Unlimited course materials</li><li>✔ Priority support</li><li>✔ Course completion certificates</li><li>✔ Ad-free experience</li></ul><button class="orange" style="width:100%">Get Started</button></div>
+</div>
+
+<div class="faq-wrap">
+<div><h2>Frequently Asked Questions</h2><p style="font-size:13px;color:#777;margin-top:8px">Still you have any questions? Contact our Team via support@bright.com</p><button style="margin-top:16px;padding:8px 12px;border-radius:6px;border:1px solid #ddd;background:#fff">See All FAQ's</button></div>
+<div>
+<div class="faq-item"><span>Can I enroll in multiple courses at once?</span><span style="background:#ffedd5;padding:4px 10px;border-radius:50%">+</span></div>
+<div class="faq-item"><span>What kind of support can I expect from instructors?</span><span>+</span></div>
+<div class="faq-item"><span>Are the courses self-paced?</span><span>+</span></div>
+<div class="faq-item"><span>Are there any prerequisites?</span><span>+</span></div>
+</div>
+</div>
+
+</div>
+<footer>© 2023 Bright. All rights reserved. | Home Courses About Pricing Contact</footer>
+</body>
+</html>
